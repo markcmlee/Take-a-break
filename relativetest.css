@@ -13,13 +13,13 @@
 /* Control the left side */
 .left {
     left: 0;
-    background-color: green;
+    background-image: url(./stretchesBG.jpg);
 }
 
 /* Control the right side */
 .right {
     right: 0;
-    background-color: red;
+    background-image: url(./exerciseBG.jpg);
 }
 
 h2 {
@@ -29,5 +29,17 @@ h2 {
 
 .centered {
     position: relative;
-    bottom: -30%;
+    top: -5%;
+}
+
+#leftVideo {
+    position: relative;
+    right: -33%;
+    display: none;
+}
+
+#rightVideo {
+    position: relative;
+    right: -40%;
+    display: none;
 }

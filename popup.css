@@ -2,10 +2,10 @@ body {
     text-align: center;
 }
 
-/* #hydrateImage {
-    width: 100px;
+#breakImage {
+    width: 150px;
     margin: 5px;
-} */
+}
 
 button {
     margin: 5px;

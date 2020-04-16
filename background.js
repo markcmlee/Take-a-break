@@ -10,10 +10,10 @@ chrome.alarms.onAlarm.addListener(function() {
   chrome.notifications.create({
       type:     'basic',
       iconUrl:  'TakeABreakLogo.png',
-      title:    'Time to take a break',
+      title:    'Time to take a break!',
       message:  'Stretch or Exercise',
       buttons: [
-        {title: 'Back to coding'}
+        {title: 'Back to work!'}
       ],
       priority: 0});
 });

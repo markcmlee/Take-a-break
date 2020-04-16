@@ -3,18 +3,26 @@
 <head>
     <link rel="stylesheet" type="text/css" href="relativetest.css">
     <script type="text/javascript" src="./relativetest.js"></script>
-    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 <body>
     <div class="split left">
         <div class="centered">
-          <h2 id="left" onClick="stretches()">Stretches</h2>
+          <h2 id="left">Stretches</h2>
+          <video id="leftVideo" width="1024" height="576" controls>
+            <source src='`${stretchVids[Math.floor(Math.random() * stretchVids.length)]}`' type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
         </div>
       </div>
 
       <div class="split right">
         <div class="centered">
-          <h2 id="rightbox">Exercises</h2>
+          <h2 id="right">Exercises</h2>
+          <video id="rightVideo" width="1024" height="576" controls>
+            <source src='`${exerciseVids[Math.floor(Math.random() * stretchVids.length)]}`' type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
         </div>
       </div>
 </body>
