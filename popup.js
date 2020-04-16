@@ -19,15 +19,3 @@ const clearAlarm = () => {
 document.getElementById('testTimer').addEventListener('click', setAlarm);
 document.getElementById('startTimer').addEventListener('click', setAlarm);
 document.getElementById('cancelAlarm').addEventListener('click', clearAlarm);
-
-
-
-
-// "content_scripts": [
-//     {
-//       "matches": [
-//         "<all_urls>"
-//       ],
-//       "js": ["content.js"]
-//     }
-//   ],
