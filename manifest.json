@@ -12,6 +12,9 @@
       "default_title": "Code",
       "default_popup": "popup.html"
     },
+    "web_accessible_resources": [
+      "./Noice.mp3"
+    ],
     "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
     "icons": {
       "16": "TakeABreakLogo16.png",
